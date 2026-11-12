@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de estudiante de programación">
+    <title>Mi Portafolio | Estudiante de Programación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#inicio" class="logo">Mi<span>Portafolio.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <p class="saludo">¡Hola! Bienvenido a mi espacio digital</p>
+
+                <h1>Soy <span>[Tu nombre]</span></h1>
+
+                <h2>Estudiante de programación</h2>
+
+                <p>
+                    Este es mi portafolio personal, un espacio donde
+                    comparto mis aprendizajes, habilidades y proyectos
+                    desarrollados durante mi formación académica.
+                </p>
+
+                <a href="#proyectos" class="btn">Ver mis proyectos</a>
+            </div>
+
+            <div class="hero-image">
+                <div class="code-box">
+                    <span class="code-symbol">&lt;/&gt;</span>
+                    <h3>Creatividad + Código</h3>
+                    <p>Aprendiendo y construyendo el futuro.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MI -->
+        <section id="sobre-mi" class="section">
+            <div class="section-title">
+                <p>CONÓCEME</p>
+                <h2>Sobre mí</h2>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    Soy estudiante de programación, interesado en el
+                    desarrollo de software y las tecnologías digitales.
+                    Durante mi formación he adquirido conocimientos
+                    sobre lógica de programación, desarrollo web y
+                    herramientas tecnológicas.
+                </p>
+
+                <p>
+                    Me gusta aprender cosas nuevas, resolver problemas
+                    y desarrollar soluciones mediante la programación.
+                    Mi objetivo es continuar fortaleciendo mis habilidades
+                    y adquirir experiencia en el mundo tecnológico.
+                </p>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="section skills-section">
+            <div class="section-title">
+                <p>LO QUE ESTOY APRENDIENDO</p>
+                <h2>Mis habilidades</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <span>🌐</span>
+                    <h3>HTML</h3>
+                    <p>Estructuración de páginas web.</p>
+                    <small>Básico</small>
+                </div>
+
+                <div class="skill-card">
+                    <span>🎨</span>
+                    <h3>CSS</h3>
+                    <p>Diseño y estilos de páginas web.</p>
+                    <small>Básico</small>
+                </div>
+
+                <div class="skill-card">
+                    <span>⚙️</span>
+                    <h3>JavaScript</h3>
+                    <p>Programación e interactividad.</p>
+                    <small>En desarrollo</small>
+                </div>
+
+                <div class="skill-card">
+                    <span>💻</span>
+                    <h3>Python</h3>
+                    <p>Lógica y desarrollo de programas.</p>
+                    <small>En desarrollo</small>
+                </div>
+
+                <div class="skill-card">
+                    <span>🗄️</span>
+                    <h3>Bases de datos</h3>
+                    <p>Organización y manejo de información.</p>
+                    <small>En desarrollo</small>
+                </div>
+
+                <div class="skill-card">
+                    <span>🧠</span>
+                    <h3>Lógica</h3>
+                    <p>Resolución de problemas y algoritmos.</p>
+                    <small>Básico</small>
+                </div>
+
+            </div>
+            <p class="note">
+                Nota: modifica las tecnologías y niveles según lo que
+                realmente hayas trabajado y puedas explicar.
+            </p>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="section">
+            <div class="section-title">
+                <p>MI TRABAJO</p>
+                <h2>Mis proyectos</h2>
+                <p class="section-description">
+                    Algunos de los trabajos realizados durante mi proceso
+                    de formación.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <div class="project-icon">💻</div>
+                    <h3>Proyecto 1</h3>
+                    <p>
+                        <strong>Objetivo:</strong>
+                        [Describe el problema o necesidad que resuelve.]
+                    </p>
+                    <p>
+                        <strong>Tecnologías:</strong>
+                        [HTML, CSS, JavaScript u otras.]
+                    </p>
+                    <p>
+                        <strong>Mi aporte:</strong>
+                        [Explica qué desarrollaste.]
+                    </p>
+                    <p>
+                        <strong>Aprendizaje:</strong>
+                        [Escribe qué aprendiste.]
+                    </p>
+                    <a href="#" class="project-link">Agregar enlace próximamente</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-icon">🚀</div>
+                    <h3>Proyecto 2</h3>
+                    <p>
+                        <strong>Objetivo:</strong>
+                        [Describe el problema o necesidad que resuelve.]
+                    </p>
+                    <p>
+                        <strong>Tecnologías:</strong>
+                        [Escribe las tecnologías utilizadas.]
+                    </p>
+                    <p>
+                        <strong>Mi aporte:</strong>
+                        [Explica qué desarrollaste.]
+                    </p>
+                    <p>
+                        <strong>Aprendizaje:</strong>
+                        [Escribe qué aprendiste.]
+                    </p>
+                    <a href="#" class="project-link">Agregar enlace próximamente</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">03</div>
+                    <div class="project-icon">⚡</div>
+                    <h3>Proyecto 3</h3>
+                    <p>
+                        <strong>Objetivo:</strong>
+                        [Describe el problema o necesidad que resuelve.]
+                    </p>
+                    <p>
+                        <strong>Tecnologías:</strong>
+                        [Escribe las tecnologías utilizadas.]
+                    </p>
+                    <p>
+                        <strong>Mi aporte:</strong>
+                        [Explica qué desarrollaste.]
+                    </p>
+                    <p>
+                        <strong>Aprendizaje:</strong>
+                        [Escribe qué aprendiste.]
+                    </p>
+                    <a href="#" class="project-link">Agregar enlace próximamente</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="section contact-section">
+            <div class="section-title">
+                <p>HABLEMOS</p>
+                <h2>Contacto profesional</h2>
+            </div>
+
+            <p>
+                Estoy interesado en continuar aprendiendo,
+                desarrollar nuevos proyectos y fortalecer
+                mis conocimientos en programación.
+            </p>
+
+            <a href="mailto:tu_correo@ejemplo.com" class="btn">
+                Enviarme un correo
+            </a>
+
+            <p class="email">
+                Correo: tu_correo@ejemplo.com
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 [Tu nombre]. Todos los derechos reservados.</p>
+        <p>Estudiante de programación | Mi portafolio personal</p>
+    </footer>
+
+</body>
+</html>
